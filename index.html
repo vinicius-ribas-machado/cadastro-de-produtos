@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>teste 5.1</h1>
+    </header>
+
+
+    <main>
+            <div class="title"></div>
+            <h2>Dados</h2>
+            <br>
+            
+
+            <div class="card">
+                
+                <div class="lineinput">
+                    <label>Nome</label><br>
+                    <input type="text" id="produto" placeholder="nome"><br>
+                    <label>Lugar</label><br>
+                    <input type="text" id="valor" placeholder="qualquer dado"><br>
+                    <label>Sobrenome</label><br>
+                    <input type="text" id="sobrenome" placeholder="sobrenome"><br>
+                    
+                </div>
+                
+                <button onclick="produto.salvar()">save</button>
+                <button onclick="produto.cancelar()">cancelar</button>
+                
+
+
+            </div>
+
+            <div class="content">
+                <table border="1">
+                    <thead>
+                        <th class="center">ID</th>
+                        <th>produto</th>
+                        <th>valor</th>
+                        <th>sobrenome</th>
+                        <th class="center">açoes</th>
+                    </thead>
+                    <tbody id="tbody">
+
+                        
+                    </tbody>
+                </table>
+            </div>
+            
+    </main>
+    
+    
+</body>
+</html>
